@@ -92,8 +92,9 @@
 
    expLab
             .style('left',(i * w))
+            .style('top',(d[1] * h) + 60)
             .style('display','block')
-            .html(output.substring(0,output.length - 3));
+            .html(output.substring(0,output.length - 2));
       })
       
  //heatmap mouse events
